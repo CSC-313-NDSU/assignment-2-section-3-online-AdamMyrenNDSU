@@ -1,1 +1,1 @@
-Fill in and submit link in blackboard when done with project... Also, if you have time, maybe implement semantic HTML 5 elements in part 2.
+https://csc-313-ndsu.github.io/assignment-2-section-3-online-AdamMyrenNDSU/

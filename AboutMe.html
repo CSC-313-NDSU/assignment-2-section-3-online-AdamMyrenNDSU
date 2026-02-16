@@ -52,247 +52,255 @@
 
     <br />
 
-    <div class="container">
-      <!-- Introduction -->
-      <div class="row justify-content-center">
-        <div class="col-3">
-          <h1>About Me</h1>
+    <section>
+      <div class="container">
+        <!-- Introduction -->
+        <div class="row justify-content-center">
+          <div class="col-3">
+            <h1>About Me</h1>
+          </div>
         </div>
-      </div>
-      <!-- Description -->
-      <div class="row justify-content-center">
-        <div class="col-4 description">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          delectus non, labore odit illum quo? Soluta quam possimus eos sunt.
-          Tenetur similique at assumenda ducimus, dignissimos illum qui optio
-          animi sed sequi enim, harum distinctio.
+        <!-- Description -->
+        <div class="row justify-content-center">
+          <div class="col-4 description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            delectus non, labore odit illum quo? Soluta quam possimus eos sunt.
+            Tenetur similique at assumenda ducimus, dignissimos illum qui optio
+            animi sed sequi enim, harum distinctio.
+          </div>
+          <div class="col-3 description">
+            <ul>
+              <li>Child Of God</li>
+              <li>NDSU Student Athlete</li>
+              <li>NDSU Computer Science</li>
+            </ul>
+          </div>
         </div>
-        <div class="col-3 description">
-          <ul>
-            <li>Child Of God</li>
-            <li>NDSU Student Athlete</li>
-            <li>NDSU Computer Science</li>
-          </ul>
+        <br />
+      </section>
+
+      <section>
+        <!-- Carousel For images of High Jump -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-11">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/Jumping.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/OverBar.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/Flexing.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <br />
       <br />
 
-      <!-- Carousel For images of High Jump -->
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-11">
-          <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleIndicators"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/Jumping.jpg" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="images/OverBar.jpg" class="d-block w-100" alt="..." />
-              </div>
-              <div class="carousel-item">
-                <img src="images/Flexing.jpg" class="d-block w-100" alt="..." />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="prev"
+      <section>
+        <!-- Table Section -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-7">
+            <h3 class="row justify-content-center">
+              Each day is a little different, but generally my schedule includes
+              is as follows:
+            </h3>
+            <!-- Table of my weekly schedule -->
+            <table class="table table-bordered border-primary">
+              <thead>
+                <tr>
+                  <th scope="col">Time</th>
+                  <th scope="col">Monday</th>
+                  <th scope="col">Tuseday</th>
+                  <th scope="col">Wednesday</th>
+                  <th scope="col">Thrusday</th>
+                  <th scope="col">Friday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">8am</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row">9am</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row">10am</th>
+                  <td class="bg-primary text-white">Class</td>
+                  <td></td>
+                  <td class="bg-primary text-white">Class</td>
+                  <td></td>
+                  <td class="bg-primary text-white">Class</td>
+                </tr>
+                <tr>
+                  <th scope="row">11am</th>
+                  <td class="bg-success text-white">Practice</td>
+                  <td></td>
+                  <td class="bg-success text-white">Practice</td>
+                  <td></td>
+                  <td class="bg-success text-white">Practice</td>
+                </tr>
+                <tr>
+                  <th scope="row">12pm</th>
+                  <td class="bg-success text-white">Practice</td>
+                  <td class="bg-warning">Lunch</td>
+                  <td class="bg-success text-white">Practice</td>
+                  <td class="bg-warning">Lunch</td>
+                  <td class="bg-success text-white">Practice</td>
+                </tr>
+                <tr>
+                  <th scope="row">1pm</th>
+                  <td class="bg-warning">Lunch</td>
+                  <td></td>
+                  <td class="bg-warning">Lunch</td>
+                  <td></td>
+                  <td class="bg-warning">Lunch</td>
+                </tr>
+                <tr>
+                  <th scope="row">2pm</th>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td class="bg-success text-white">Practice</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th scope="row">3pm</th>
+                  <td class="bg-primary text-white">Class</td>
+                  <td class="bg-success text-white">Practice</td>
+                  <td class="bg-primary text-white">Class</td>
+                  <td class="bg-success text-white">Practice</td>
+                  <td class="bg-primary text-white">Class</td>
+                </tr>
+                <tr>
+                  <th scope="row">4pm</th>
+                  <td class="bg-danger text-white">Sauna</td>
+                  <td class="bg-success text-white">Practice</td>
+                  <td class="bg-danger text-white">Sauna</td>
+                  <td class="bg-success text-white">Practice</td>
+                  <td class="bg-danger text-white">Sauna</td>
+                </tr>
+                <tr>
+                  <th scope="row">5pm</th>
+                  <td></td>
+                  <td class="bg-success text-white">Lift</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Some of my favorite sites -->
+          <div class="col-12 col-md-3 d-flex align-items-center">
+            <h5>Some of my favorate links:</h5>
+            <br />
+            <a href="https://gobison.com/sports/mens-track-and-field"
+              >NDSU Track and Field</a
             >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide="next"
+            <br />
+            <a
+              href="https://weather.com/weather/tenday/l/Bluemont+Lakes+Fargo+North+Dakota?canonicalCityId=2b6f7ed402d9d5d33993a9d831dc02a2"
+              >Fargo Weather</a
             >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <br />
+            <a href="https://blackboard.ndus.edu">Blackboard</a>
           </div>
         </div>
       </div>
-
-      <br />
-      <br />
-
-      <!-- Table Section -->
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-7">
-          <h3 class="row justify-content-center">
-            Each day is a little different, but generally my schedule includes
-            is as follows:
-          </h3>
-          <!-- Table of my weekly schedule -->
-          <table class="table table-bordered border-primary">
-            <thead>
-              <tr>
-                <th scope="col">Time</th>
-                <th scope="col">Monday</th>
-                <th scope="col">Tuseday</th>
-                <th scope="col">Wednesday</th>
-                <th scope="col">Thrusday</th>
-                <th scope="col">Friday</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">8am</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <th scope="row">9am</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <th scope="row">10am</th>
-                <td class="bg-primary text-white">Class</td>
-                <td></td>
-                <td class="bg-primary text-white">Class</td>
-                <td></td>
-                <td class="bg-primary text-white">Class</td>
-              </tr>
-              <tr>
-                <th scope="row">11am</th>
-                <td class="bg-success text-white">Practice</td>
-                <td></td>
-                <td class="bg-success text-white">Practice</td>
-                <td></td>
-                <td class="bg-success text-white">Practice</td>
-              </tr>
-              <tr>
-                <th scope="row">12pm</th>
-                <td class="bg-success text-white">Practice</td>
-                <td class="bg-warning">Lunch</td>
-                <td class="bg-success text-white">Practice</td>
-                <td class="bg-warning">Lunch</td>
-                <td class="bg-success text-white">Practice</td>
-              </tr>
-              <tr>
-                <th scope="row">1pm</th>
-                <td class="bg-warning">Lunch</td>
-                <td></td>
-                <td class="bg-warning">Lunch</td>
-                <td></td>
-                <td class="bg-warning">Lunch</td>
-              </tr>
-              <tr>
-                <th scope="row">2pm</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td class="bg-success text-white">Practice</td>
-                <td></td>
-              </tr>
-              <tr>
-                <th scope="row">3pm</th>
-                <td class="bg-primary text-white">Class</td>
-                <td class="bg-success text-white">Practice</td>
-                <td class="bg-primary text-white">Class</td>
-                <td class="bg-success text-white">Practice</td>
-                <td class="bg-primary text-white">Class</td>
-              </tr>
-              <tr>
-                <th scope="row">4pm</th>
-                <td class="bg-danger text-white">Sauna</td>
-                <td class="bg-success text-white">Practice</td>
-                <td class="bg-danger text-white">Sauna</td>
-                <td class="bg-success text-white">Practice</td>
-                <td class="bg-danger text-white">Sauna</td>
-              </tr>
-              <tr>
-                <th scope="row">5pm</th>
-                <td></td>
-                <td class="bg-success text-white">Lift</td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Some of my favorite sites -->
-        <div class="col-12 col-md-3 d-flex align-items-center">
-          <h5>Some of my favorate links:</h5>
-          <br />
-          <a href="https://gobison.com/sports/mens-track-and-field"
-            >NDSU Track and Field</a
-          >
-          <br />
-          <a
-            href="https://weather.com/weather/tenday/l/Bluemont+Lakes+Fargo+North+Dakota?canonicalCityId=2b6f7ed402d9d5d33993a9d831dc02a2"
-            >Fargo Weather</a
-          >
-          <br />
-          <a href="https://blackboard.ndus.edu">Blackboard</a>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <br />
 
-    <!-- My Favorate Movies -->
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-3">
-        <h5>My favorate Movies:</h5>
-        <ul>
-          <li>Home Alone</li>
-          <li>Star Wars</li>
-          <li>Harry Potter</li>
-          <li>Lord of the Rings</li>
-          <li>The Princess Bride</li>
-        </ul>
+    <section>
+      <!-- My Favorate Movies -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-3">
+          <h5>My favorate Movies:</h5>
+          <ul>
+            <li>Home Alone</li>
+            <li>Star Wars</li>
+            <li>Harry Potter</li>
+            <li>Lord of the Rings</li>
+            <li>The Princess Bride</li>
+          </ul>
+        </div>
+        <!-- My Favorate Hobbies -->
+        <div class="col-12 col-md-3">
+          <h5>My favorate Hobbies:</h5>
+          <ol>
+            <li>Track and Field</li>
+            <li>Spending time with Friends/Family</li>
+            <li>Bible Studies</li>
+            <li>Board Games</li>
+            <li>Cooking</li>
+          </ol>
+        </div>
       </div>
-      <!-- My Favorate Hobbies -->
-      <div class="col-12 col-md-3">
-        <h5>My favorate Hobbies:</h5>
-        <ol>
-          <li>Track and Field</li>
-          <li>Spending time with Friends/Family</li>
-          <li>Bible Studies</li>
-          <li>Board Games</li>
-          <li>Cooking</li>
-        </ol>
-      </div>
-    </div>
+    </section>
     <br />
 
     <!-- Bootstrap JS Connection-->
