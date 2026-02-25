@@ -1,0 +1,141 @@
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+    color: gray;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc72a;
+}
+
+h1 {
+    color: #006a4d;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    border-bottom: 4px solid #ffc72a;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+h3,
+h5 {
+    color: #006a4d;
+    font-weight: 700;
+}
+
+.description {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+}
+
+.carousel {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+}
+
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.table thead {
+    background-color: #006a4d;
+    color: white;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.bg-primary {
+    background-color: #006a4d;
+}
+
+.bg-success {
+    background-color: #28a745;
+}
+
+.bg-warning {
+    background-color: #ffc72a;
+    color: #000;
+}
+
+a {
+    color: #006a4d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #212529;
+    text-decoration: underline;
+}
+
+.col-md-3.d-flex {
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-left: 5px solid #ffc72a;
+    padding: 2rem;
+    border-radius: 0 10px 10px 0;
+}
+
+.row h5 {
+    color: #006a4d;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffc72a;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.col-md-3 h5+ul,
+.col-md-3 h5+ol {
+    background: white;
+    padding: 25px 25px 25px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-left: 5px solid #006a4d;/
+}
+
+.col-md-3 li {
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.2s;
+}
+
+@media (max-width: 768px) {
+    .profile-image-container {
+        width: 250px;
+        height: 250px;
+    }
+
+    main.vh-100 {
+        height: auto;
+        padding: 50px 0;
+    }
+}
